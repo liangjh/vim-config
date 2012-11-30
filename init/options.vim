@@ -1,8 +1,9 @@
-set guifont=Menlo:h21
+set guifont=Consolas\ 12
 set guioptions-=T               " Remove GUI toolbar
 set guioptions-=e               " Use text tab bar, not GUI
 set guioptions-=rL              " Remove scrollbars
 set guicursor=a:blinkon0        " Turn off the blinking cursor
+set linespace=2
 
 set notimeout                   " No command timeout
 set showcmd                     " Show typed command prefixes while waiting for operator

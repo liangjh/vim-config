@@ -130,3 +130,13 @@ nmap du :diffupdate<CR>
 
 " Gundo.vim
 map <leader>u :GundoToggle<CR>
+
+" My keybindings
+" Bubble single lines
+nmap { [e
+nmap } ]e
+" Bubble multiple lines
+vmap { [egv
+vmap } ]egv
+
+
