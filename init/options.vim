@@ -4,6 +4,7 @@ set guioptions-=e               " Use text tab bar, not GUI
 set guioptions-=rL              " Remove scrollbars
 set guicursor=a:blinkon0        " Turn off the blinking cursor
 set linespace=2
+set noswapfile
 
 set notimeout                   " No command timeout
 set showcmd                     " Show typed command prefixes while waiting for operator
