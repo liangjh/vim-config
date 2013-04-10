@@ -144,3 +144,9 @@
 [submodule "bundle/j-split"]
 	path = bundle/j-split
 	url = git://github.com/mgamba/j-split.git
+[submodule "Vim-R-plugin"]
+	path = Vim-R-plugin
+	url = https://github.com/jcfaria/Vim-R-plugin
+[submodule "bundle/vim-r"]
+	path = bundle/vim-r
+	url = https://github.com/jcfaria/Vim-R-plugin
