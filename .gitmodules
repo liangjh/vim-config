@@ -150,3 +150,6 @@
 [submodule "bundle/vim-r"]
 	path = bundle/vim-r
 	url = https://github.com/jcfaria/Vim-R-plugin
+[submodule "bundle/vim-clojure"]
+	path = bundle/vim-clojure
+	url = https://github.com/vim-scripts/VimClojure.git
