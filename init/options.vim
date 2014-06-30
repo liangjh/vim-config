@@ -1,4 +1,4 @@
-set guifont=Consolas\ 12
+set guifont=Liberation\ Mono\ 12
 set guioptions-=T               " Remove GUI toolbar
 set guioptions-=e               " Use text tab bar, not GUI
 set guioptions-=rL              " Remove scrollbars
@@ -55,6 +55,10 @@ nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>""
 " Write all writeable buffers when changing buffers or losing focus.
 set autowriteall                " Save when doing various buffer-switching things.
 autocmd BufLeave,FocusLost * silent! wall  " Save anytime we leave a buffer or MacVim loses focus.
+
+" Set indentation to 4 spaces for python files
+autocmd Filetype python setlocal expandtab tabstop=4 shiftwidth=4
+
 
 " Turn off ri tooltips that don't work with Ruby 1.9 yet
 " http://code.google.com/p/macvim/issues/detail?id=342
