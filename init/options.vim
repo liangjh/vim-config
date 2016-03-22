@@ -60,9 +60,7 @@ autocmd BufLeave,FocusLost * silent! wall  " Save anytime we leave a buffer or M
 autocmd Filetype python setlocal expandtab tabstop=4 shiftwidth=4
 
 " Set indentation for c,cpp files
-autocmd FileType c,cpp :set cindent
-autocmd FileType c,cpp :setf c
-autocmd FileType c,cpp :set expandtab
+autocmd FileType c,cpp setlocal expandtab tabstop=4 shiftwidth=4
 
 " Turn off ri tooltips that don't work with Ruby 1.9 yet
 " http://code.google.com/p/macvim/issues/detail?id=342
